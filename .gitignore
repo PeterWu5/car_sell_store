@@ -1,0 +1,4 @@
+.next
+.playwright-mcp
+node_modules
+npm-debug.log*
