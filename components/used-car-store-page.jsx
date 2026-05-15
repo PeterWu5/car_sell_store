@@ -748,7 +748,7 @@ export default function UsedCarStorePage() {
                   </select>
                 </div>
                 <div>
-                  <label htmlFor="visitTime">希望到店时间</label>
+                  <label htmlFor="visitTime">期望到店时间</label>
                   <input
                     className="input"
                     id="visitTime"
