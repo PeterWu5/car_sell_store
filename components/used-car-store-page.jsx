@@ -717,6 +717,18 @@ export default function UsedCarStorePage() {
                   />
                 </div>
                 <div>
+                  <label htmlFor="visitTime">期望到店时间</label>
+                  <input
+                    className="input"
+                    id="visitTime"
+                    name="visitTime"
+                    type="datetime-local"
+                    value={formState.visitTime}
+                    onChange={handleFormChange}
+                    required
+                  />
+                </div>
+                <div>
                   <label htmlFor="visitorPhone">联系电话</label>
                   <input
                     className="input"
@@ -747,19 +759,6 @@ export default function UsedCarStorePage() {
                     ))}
                   </select>
                 </div>
-                <div>
-                  <label htmlFor="visitTime">期望到店时间</label>
-                  <input
-                    className="input"
-                    id="visitTime"
-                    name="visitTime"
-                    type="datetime-local"
-                    value={formState.visitTime}
-                    onChange={handleFormChange}
-                    required
-                  />
-                </div>
-
                 <div className="submit-row">
                   <button className="button button-primary" type="submit">
                     确认预约
